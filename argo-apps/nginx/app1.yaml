@@ -14,3 +14,10 @@ spec:
     path: apps/nginx
     repoURL: https://github.com/sourabhdeshmukh/argocd.git
     targetRevision: HEAD
+  syncPolicy:
+    automated:
+      allowEmpty: true
+      selfHeal: true
+    syncOptions:
+    - allowEmpty=true
+    - CreateNamespace=true
