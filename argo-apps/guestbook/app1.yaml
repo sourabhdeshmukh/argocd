@@ -12,5 +12,5 @@ spec:
   project: default
   source:
     path: apps/guestbook
-    repoURL: https://gitlab.com/sourabhdeshmukh/argocd.git
+    repoURL: https://github.com/sourabhdeshmukh/argocd.git
     targetRevision: HEAD

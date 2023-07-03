@@ -12,5 +12,5 @@ spec:
   project: default
   source:
     path: apps/nginx
-    repoURL: https://gitlab.com/sourabhdeshmukh/argocd.git
+    repoURL: https://github.com/sourabhdeshmukh/argocd.git
     targetRevision: HEAD
