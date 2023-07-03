@@ -11,6 +11,6 @@ spec:
     server: https://kubernetes.default.svc
   project: default
   source:
-    path: argocd/apps/guestbook
+    path: apps/guestbook
     repoURL: https://gitlab.com/sourabhdeshmukh/argocd.git
     targetRevision: HEAD
